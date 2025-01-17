@@ -1,0 +1,12 @@
+.d{
+    border: 1px solid black;
+    height: 100px;
+    width: 500px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+body{
+    text-align: center;
+
+}
