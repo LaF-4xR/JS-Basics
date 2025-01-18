@@ -1,0 +1,12 @@
+div{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    background-color: blue;
+}
+ul{
+    background-color: wheat;
+}
+li{
+    background-color: yellow;
+}
