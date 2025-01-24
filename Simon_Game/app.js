@@ -6,6 +6,7 @@ h2=document.querySelector("h3");
 
 let started = false;
 level = 0;
+highScore = 0;
 
 document.addEventListener("keypress", function(){
     if(started == false)
@@ -19,6 +20,11 @@ document.addEventListener("keypress", function(){
 function levelUp(){
     userSeq=[];
     level++;
+
+    if(level > highScore)
+    {
+        highScore = level;
+    }
 
     h2.innerText = `Level ${level}`;
     randIdx = Math.floor(Math.random()*4);
@@ -73,7 +79,7 @@ function checkAns(idx){
     else
     {
         console.log("Incorrect");
-        h2.innerHTML = `Game Over! Your score is ${level}<br>Press any key to start`;
+        h2.innerHTML = `Game Over! Your score is ${level}<br>Your Best Score is ${highScore}<br>Press any key to start`;
         document.querySelector("body").style.backgroundColor = "red";
         setTimeout(function(){
             document.querySelector("body").style.backgroundColor = "white";
