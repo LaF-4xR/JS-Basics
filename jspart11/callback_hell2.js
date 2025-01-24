@@ -1,4 +1,4 @@
-function savetoDB(success, failure){
+function savetoDB(data, success, failure){
     let speed = Math.floor(Math.random() * 10) + 1
     if(speed > 4){
         success();
@@ -34,3 +34,5 @@ savetoDB(
         console.log("Failure: Weak connection");
     }
 );
+
+// Callback Nesting -> Callback Hell
