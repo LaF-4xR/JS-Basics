@@ -18,7 +18,7 @@ async function change(){
     await colorChange("brown", 1000);
 }
 
-change();  //Usage of Async and Await makes the codes of promises and callback hells more compact
+change();  //Usage of Async and Await makes the codes of promises and callback hells more compact  
 
 // colorChange("blue", 1000)
 // .then(() => {
