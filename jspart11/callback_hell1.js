@@ -14,7 +14,7 @@ changeColor("blue", 1000, () => {
                 changeColor("purple", 1000, () => {
                     changeColor("brown", 1000);
                 });
-            }); 
+            });
         });
     });
 });
