@@ -32,4 +32,3 @@ savetoDB("Hello")
 //Promise method is used to write the codes of comeback hells to make it more compact, efficient and more readable and less confusing which can be very easy to understand for the programmer/user.
 
 //The Promise method helps resolve callback hell by making the code more compact, efficient, readable, and easier for programmers/users to understand.
-  
