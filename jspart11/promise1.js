@@ -34,7 +34,7 @@ colorChange("blue", 1000)
     console.log("Color was changed to brown!");
 })
 .catch(() =>{
-    console.log("Error occurred!"); 
+    console.log("Error occurred!");
 });
 
 //Promise method is used to write the codes of comeback hells to make it more compact, efficient and more readable and less confusing which can be very easy to understand for the programmer/user.
