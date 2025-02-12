@@ -2,6 +2,10 @@ let url = "https://catfact.ninja/fact";
 
 let btn = document.querySelector("button");
 
+btn.addEventListener("click", () => {
+
+})
+
 async function getFacts() {
     try
     {
@@ -15,4 +19,3 @@ async function getFacts() {
         console.log("Error", e);
     }
 }
-getFacts();
