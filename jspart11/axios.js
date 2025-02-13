@@ -27,4 +27,4 @@ async function getFacts() {
         console.log("Error", e);
     }
 }
-}); 
+});
