@@ -38,4 +38,4 @@ async function demo(){
     await getNum();
 }
 
-demo();  
+demo(); 
