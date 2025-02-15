@@ -15,7 +15,7 @@ async function change(){
     await colorChange("yellow", 1000);
     await colorChange("green", 1000);
     await colorChange("purple", 1000);
-    await colorChange("brown", 1000); 
+    await colorChange("brown", 1000);
 }
 
 change();  //Usage of Async and Await makes the codes of promises and callback hells more compact
